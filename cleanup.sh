@@ -5,7 +5,7 @@ apt-get update
 apt-get upgrade
 
 # Install my default thingies
-apt-get -y install nano fail2ban screen wget aptitude
+apt-get -y install nano fail2ban screen wget aptitude git
 
 # Cleanup messy OS templates
 service apache2 stop
